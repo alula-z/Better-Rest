@@ -29,6 +29,23 @@
 		076868152E5F7B6200704768 /* BetterRestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0768683C2E5FE17F00704768 /* Exceptions for "BetterRestUITests" folder in "BetterRest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				SleepCalculator.mlmodel,
+			);
+			target = 076867FD2E5F7B5F00704768 /* BetterRest */;
+		};
+		0768683D2E5FE17F00704768 /* Exceptions for "BetterRestUITests" folder in "BetterRestTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				SleepCalculator.mlmodel,
+			);
+			target = 0768680A2E5F7B6200704768 /* BetterRestTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		076868002E5F7B5F00704768 /* BetterRest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -42,6 +59,10 @@
 		};
 		076868182E5F7B6200704768 /* BetterRestUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0768683C2E5FE17F00704768 /* Exceptions for "BetterRestUITests" folder in "BetterRest" target */,
+				0768683D2E5FE17F00704768 /* Exceptions for "BetterRestUITests" folder in "BetterRestTests" target */,
+			);
 			path = BetterRestUITests;
 			sourceTree = "<group>";
 		};
